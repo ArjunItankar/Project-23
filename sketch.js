@@ -53,7 +53,7 @@ function draw() {
   image(playerimage, player.position.x, player.position.y, 70, 180);
   image(archerimage, playerArcher.position.x, playerArcher.position.y, 90, 100);
   
-  playerArcher.display();
+  
   Engine.update(engine);
 
   // Title
